@@ -1,0 +1,49 @@
+﻿<Window x:Class="MastermindPE2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MastermindPE2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ComboBox x:Name="colorComboBox1" HorizontalAlignment="Left" Height="29" Margin="131,71,0,0" VerticalAlignment="Top" Width="133" SelectionChanged="colorComboBox1_SelectionChanged"  >
+            <ComboBoxItem Content="Red" />
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Orange"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <ComboBox x:Name="colorComboBox2" HorizontalAlignment="Left" Height="29" Margin="264,71,0,0" VerticalAlignment="Top" Width="133">
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Orange"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <ComboBox x:Name="colorComboBox3" HorizontalAlignment="Left" Height="29" Margin="393,71,0,0" VerticalAlignment="Top" Width="133">
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Orange"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <ComboBox x:Name="colorComboBox4" HorizontalAlignment="Left" Height="29" Margin="526,71,0,0" VerticalAlignment="Top" Width="133">
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Orange"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <Button Content="Valideren" HorizontalAlignment="Left" Height="26" Margin="334,237,0,0" VerticalAlignment="Top" Width="126"  />
+        <Label x:Name="colorLabel1" Content="" HorizontalAlignment="Left" Height="70" Margin="162,147,0,0" VerticalAlignment="Top" Width="70" Background="Gray" BorderBrush="Beige" BorderThickness="5"/>
+        <Label x:Name="colorLabel2" Content="" HorizontalAlignment="Left" Height="70" Margin="296,147,0,0" VerticalAlignment="Top" Width="70" Background="Gray" BorderBrush="Beige" BorderThickness="5"/>
+        <Label x:Name="colorLabel3" Content="" HorizontalAlignment="Left" Height="70" Margin="424,147,0,0" VerticalAlignment="Top" Width="70" Background="Gray" BorderBrush="Beige" BorderThickness="5"/>
+        <Label x:Name="colorLabel4" Content="" HorizontalAlignment="Left" Height="70" Margin="558,147,0,0" VerticalAlignment="Top" Width="70" Background="Gray" BorderBrush="Beige" BorderThickness="5"/>
+        <TextBox x:Name="timerTextBox"  HorizontalAlignment="Center" Margin="0,285,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+    </Grid>
+</Window>
